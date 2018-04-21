@@ -1,0 +1,25 @@
+{
+  "name": "hanrober-geometry-demo",
+  "version": "1.1.0",
+  "description": "A repo containing a simple own NPM module for trivial geometric calculations",
+  "author": "Hans-Jürgen Robertz",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "compile": "npx babel index.js --presets babel-preset-env --out-dir dist",
+    "test": "jest",
+    "docs": "npx jsdoc index.js -d docs",
+    "build": "npm run compile && npm run test && npm run docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hanrober/hanrober-geometry-demo"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "jest": "^22.4.3",
+    "jsdoc": "^3.5.5",
+    "npx": "^10.2.0"
+  }
+}
