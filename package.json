@@ -1,6 +1,6 @@
 {
   "name": "hanrober-geometry-demo",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "description": "A repo containing a simple own NPM module for trivial geometric calculations",
   "author": "Hans-Jürgen Robertz",
   "license": "MIT",
