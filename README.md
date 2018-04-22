@@ -12,15 +12,15 @@ npm install hanrober-geometry-demo --save
 # Usage
 
 ```
-const geometryModule = require("hanrober-geometry-demo")
+import Geometry from 'hanrober-geometry-demo';
 
 /*
  * The following function acts as a demo - Use your own implementation
  */
 const demoFunc = (name, ...numbers) => {
   geometry.name = name;
-  result = geometry.calc(...numbers);
-  var res = `
+  let result = geometry.calc(...numbers);
+  let res = `
      The result of the calculation:
        Object: ${name}
        Area: ${result.area}
@@ -31,7 +31,7 @@ const demoFunc = (name, ...numbers) => {
 };
 
 // Instantiate the class
-let geometry = new geometryModule()
+let geometry = new Geometry()
 
 // Call the calculation method
 demoFunc("Square", 3)
