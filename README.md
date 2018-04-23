@@ -1,4 +1,5 @@
 # Description
+
 A simple class representing a geometry calculation service.
 The call of the calculation method will return an object containing the name of the geometric object which
 was used for the calculation, the calculated area and circumference and an error message, if an error occured.
@@ -8,6 +9,10 @@ was used for the calculation, the calculated area and circumference and an error
 ```
 npm install hanrober-geometry-demo --save
 ```
+
+# Documentation
+
+The documentation of the ES6 class can be found in the folder "docs"
 
 # Usage
 
@@ -36,7 +41,9 @@ let geometry = new Geometry()
 // Call the calculation method
 demoFunc("Square", 3)
 ```
+
 results in the following console.log output
+
 ```
 The result of the calculation:
   Object: Square
@@ -46,13 +53,16 @@ The result of the calculation:
 ```
 
 An invalid call like
+
 ```
 .
 .
 .
 demoFunc("Circle", 'drei');
 ```
+
 results in the following console.log output
+
 ```
 The result of the calculation:
   Object: Circle
